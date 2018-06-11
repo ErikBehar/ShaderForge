@@ -341,7 +341,7 @@ namespace ShaderForge
 			{
 				Object droppedObj = DragAndDrop.objectReferences[0];
 #if !UNITY_2018_1_OR_NEWER
-				if( droppedObj is Texture2D || droppedObj is ProceduralTexture || droppedObj is RenderTexture) {
+				if( droppedObj is Texture2D || droppedObj is ProceduralTexture || droppedObj is RenderTexture)
 #else
 				if (droppedObj is Texture2D || droppedObj is RenderTexture)
 #endif
